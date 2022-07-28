@@ -1,10 +1,11 @@
 {
-    "items": [
+  "items": [
       {
         "id": 1,
         "name": "Abstract Gold-Like Sculpture",
         "comment": "The stunning and eye-catching abstract sculpture features a stylish electroplating polished finish.Expertly crafted with quality material for a long-lasting structure and exceptional durability.This style has a large emphasis on natural materials. It is about striking a balance between function and design.",
         "price": "4200 KES",
+        "category": "Sculpture",
         "image": "https://jamobrand.com/static/4aef60da76555ebb88fb65a3f22ecaa6/3cd29/sculp-one.webp"
       },
       {
@@ -12,6 +13,7 @@
         "name": "Decorative Home Decor Sculpture",
         "comment": "The stunning and eye-catching abstract sculpture features a stylish electroplating polished finish.Expertly crafted with quality material for a long-lasting structure and exceptional durability.This style has a large emphasis on natural materials. It is about striking a balance between function and design.",
         "price": "11200 KES",
+        "category": "Sculpture",
         "image": "https://jamobrand.com/static/fd3adffebbe846883bf4ef81fde9ac10/4f03f/scullp-two.webp"
       },
       {
@@ -19,6 +21,7 @@
         "name": "Silver Decorative Home Figurine",
         "comment": "The stunning and eye-catching abstract sculpture features a stylish electroplating polished finish.Expertly crafted with quality material for a long-lasting structure and exceptional durability.This style has a large emphasis on natural materials. It is about striking a balance between function and design.",
         "price": "4990 KES",
+        "category": "Sculpture",
         "image": "https://jamobrand.com/static/b4b5dd6fa85da98a660c38f0bec64b60/3cd29/sculp-four.webp"
       },
       {
@@ -26,6 +29,7 @@
         "name": "Decorative Silver Sculpture",
         "comment": "The stunning and eye-catching abstract sculpture features a stylish electroplating polished finish.Expertly crafted with quality material for a long-lasting structure and exceptional durability.This style has a large emphasis on natural materials. It is about striking a balance between function and design.",
         "price": "5400 KES",
+        "category": "Sculpture",
         "image": "https://jamobrand.com/static/02eec42e39b68474db8da77a8e061acd/4f03f/sculp-five.webp"
       },
       {
@@ -33,6 +37,7 @@
         "name": "Decorative Abstract Sculpture",
         "comment": "The stunning and eye-catching abstract sculpture features a stylish electroplating polished finish.Expertly crafted with quality material for a long-lasting structure and exceptional durability.This style has a large emphasis on natural materials. It is about striking a balance between function and design.",
         "price": "11800 KES",
+        "category": "Sculpture",
         "image": "https://jamobrand.com/static/5c97d32ae5a54d2c2a46157682427e18/4f03f/sculp-six.webp"
       },
       {
@@ -40,6 +45,7 @@
         "name": "Decorative Home Decor Sculpture",
         "comment": "The stunning and eye-catching abstract sculpture features a stylish electroplating polished finish.Expertly crafted with quality material for a long-lasting structure and exceptional durability.This style has a large emphasis on natural materials. It is about striking a balance between function and design.",
         "price": "6400 KES",
+        "category": "Sculpture",
         "image": "https://jamobrand.com/static/bea2ca145f9ce279c44bff9d41757732/4f03f/sculp-seven.webp"
       },
       {
@@ -47,6 +53,7 @@
         "name": "Decorative Horse Sculpture",
         "comment": "The stunning and eye-catching abstract sculpture features a stylish electroplating polished finish.Expertly crafted with quality material for a long-lasting structure and exceptional durability.This style has a large emphasis on natural materials. It is about striking a balance between function and design.",
         "price": "11500 KES",
+        "category": "Sculpture",
         "image": "https://jamobrand.com/static/af9b1aab9815f23fd2e87602a9708cc7/3cd29/sculp-eight.webp"
       },
       {
@@ -54,6 +61,7 @@
         "name": "Decorative Black Horse Sculpture",
         "comment": "The stunning and eye-catching abstract sculpture features a stylish electroplating polished finish.Expertly crafted with quality material for a long-lasting structure and exceptional durability.This style has a large emphasis on natural materials. It is about striking a balance between function and design.",
         "price": "7300 KES",
+        "category": "Sculpture",
         "image": "https://jamobrand.com/static/16413fd3dd556e46860c8a2438fd0942/3cd29/sculp-nine-to.webp"
       },
       {
@@ -61,6 +69,7 @@
         "name": "Round Table Mirror",
         "comment": "A two sided mirror that can be placed wherever you need it.It has a regular mirror on one side and a magnifying mirror on the other - ideal for shaving, plucking eyebrows or putting on makeup.",
         "price": "2500 KES",
+        "category": "Mirror",
         "image": "https://jamobrand.com/static/15426d7ca6dd309b8dda9c4bcee46895/3cd29/round-table-mirror.webp"
       },
       {
@@ -68,7 +77,36 @@
         "name": "Wavy Decorative Wall Mirror",
         "comment": "This decorative wall mirror offers a design based on soft curved shapes achieved with a moulded frame. It will decorate your living room and bedroom walls.",
         "price": "23500 KES",
+        "category": "Mirror",
         "image": "https://jamobrand.com/static/7fffaf1722913bc0cc494e2a7f0080c3/fd9b0/wavy-mir-one.webp"
+      }
+    ],
+    "collection": [
+      {
+        "id": 11,
+        "name": "Yellow Floor Metal Lamp",
+        "comment": "Infuse your space with a sense of balance and symmetry with the addition of this floor lamp that provides a large volume of light to atleast one area.Works well with an e14x1 bulb with a max watt of 60.", 
+        "price": "9500 KES",
+        "category": "Sculpture",
+        "image": "https://jamobrand.com/static/4aef60da76555ebb88fb65a3f22ecaa6/3cd29/sculp-one.webp"
+      },
+      {
+        "id": 12,
+        "name": "Decorative Living Room Art",
+        "comment": "A wall art is ideal to decorate your home! And it's a perfect gift for your loved ones.Decorate your walls. So simple and affordable!",
+        "price": "4700 KES",
+        "category": "Wall Art",
+        "image": "https://jamobrand.com/static/680638b528a263c61a6fde58cf20b666/3f505/art-three.webp"
+      }
+    ],
+    "wishlist": [
+      {
+        "id": 13,
+        "name": "Bovee Lattice Black Frame with Bevel Mirror - 60x130cm",
+        "comment": "A mirror that mimics the outlook of a window! Lightweight and a great addition to your living space.",
+        "price": "21500 KES",
+        "category": "Mirror",
+        "image": "https://cdn11.bigcommerce.com/s-9nl27vlw/images/stencil/1280x1280/products/5473/11827/M21130_IB-03-0018_60x130cm__40973.1655975898.jpg?c=2?imbypass=on"
       }
     ]
 }
