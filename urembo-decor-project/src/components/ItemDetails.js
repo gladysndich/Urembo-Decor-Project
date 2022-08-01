@@ -4,22 +4,22 @@ import { useParams, Link } from "react-router-dom";
 function ItemDetails({ addToCollection, addToWishlist, removeFromWishList }) {
   const [item, setItems] = useState({})
   const { id } = useParams();
-  const { image, name, price } = item
+  const [ image, name, price ] = item
 
   useEffect(() => {
-    fetch(`http://localhost:3000/item/${id}`)
+    fetch(`https://pinnate-typhoon-nut.glitch.me/item/${id}`)
     .then(r => r.json())
     .then(item => setItems(item))
   },[id])
 
   const handleBuyNow = () => {
-    if(fetch(`http://localhost:3000/wishlist/${id}`)){
-      fetch(`http://localhost:3000/wishlist/${id}`, {
+    if(fetch(`https://pinnate-typhoon-nut.glitch.me/${id}`)){
+      fetch(`https://pinnate-typhoon-nut.glitch.me/wishlist/${id}`, {
         method: "DELETE"
       })
       .then(removeFromWishList(item))
     }
-    fetch('http://localhost:3000/collection',{
+    fetch('/collection',{
           method: 'POST',
           headers: {
             'content-type': 'application/json',
@@ -32,7 +32,7 @@ function ItemDetails({ addToCollection, addToWishlist, removeFromWishList }) {
   }
 
   const handleWishlist = () => {
-    fetch('http://localhost:3000/wishlist',{
+    fetch('https://pinnate-typhoon-nut.glitch.me/wishlist',{
       method: 'POST',
       headers: {
         'content-type': 'application/json',

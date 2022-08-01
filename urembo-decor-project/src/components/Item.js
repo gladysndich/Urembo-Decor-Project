@@ -1,8 +1,9 @@
+import React from 'react';
 import { Link } from 'react-router-dom'
 
 
-function Item({ item }) {
-  const {id, image, name, comment} = item
+function Items({ item }) {
+  const [id, image, name, comment] = item
 
   return (
     image ? 
@@ -22,4 +23,4 @@ function Item({ item }) {
   );
 }
 
-export default Item;
+export default Items;

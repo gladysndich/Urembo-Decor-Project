@@ -1,13 +1,14 @@
-import Item from './Item'
+import React from 'react'
+import Items from './Item'
 
 
-function ItemContainer({ items }) {
+function ItemContainer({ items, setSearch, search, setCategory, categorySelect }) {
     const renderItems = () => {
         return items.map(item => {
-            return <Item key={item.id} item={item} />
+            return <Items key={item.id} item={item} />
         })
     }
-
+    
     return(
         <div>
             <br></br>

@@ -1,15 +1,17 @@
-import Item from "./Item"
+import React from "react";
+import Items from "./Item";
 
-function ItemCollection({collection}) {
+function ItemCollection({ collection }) {
+    
     const renderCollection = () => {
         return collection.map(item => {
-            return <Item key={item.id} item={item} />
-        })
+            return (<Items key={item.id} item={item} />);
+        });
     }
 
 
     return (
-        <div className="ItemCollection">
+        <div className="collection">
             <h2>Your Collection:</h2>
             <ul>
                 {renderCollection()}
